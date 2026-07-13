@@ -1,0 +1,74 @@
+# =============================== 
+# 🔐 SEGURANÇA (NUNCA SUBIR)
+# ===============================
+.env
+.env.*
+.streamlit/secrets.toml
+**/*.streamlit/secrets.toml
+
+# =============================== 
+# 🐍 PYTHON
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# =============================== 
+# 📦 DEPENDÊNCIAS / BUILD
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# =============================== 
+# 🧪 TESTES / CACHE
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =============================== 
+# 📊 DADOS (se tiver dados sensíveis)
+# ===============================
+*.csv
+*.xlsx
+*.parquet
+
+# =============================== 
+# 🖥️ SISTEMA OPERACIONAL
+# ===============================
+.DS_Store
+Thumbs.db
+
+# =============================== 
+# 💻 IDE / EDITORES
+# ===============================
+.vscode/
+.idea/
+
+# =============================== 
+# 📜 LOGS
+# ===============================
+*.log
+
+# =============================== 
+# 🚀 STREAMLIT
+# ===============================
+.streamlit/config.toml
+
+# =============================== 
+# 🔑 OUTROS SEGREDOS
+# ===============================
+secrets.json
+credentials.json
+Users.py
+
+# Backup files
+*.fixed
