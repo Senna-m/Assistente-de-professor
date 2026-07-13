@@ -70,3 +70,4 @@ Thumbs.db
 secrets.json
 credentials.json
 Users.py
+secrets.toml
